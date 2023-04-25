@@ -1,1 +1,0 @@
-rmarkdown::render("about_koissi.Rmd", output_format = "html_document", output_file = "about_koissi.html", css = "style.css")

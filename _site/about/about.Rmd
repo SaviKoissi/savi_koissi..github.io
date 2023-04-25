@@ -1,0 +1,8 @@
+---
+title: "About Koissi Savi"
+---
+
+Koissi's postdoctoral experience includes research in the Department of Epidemiology at the Harvard School of Public Health where his work innovatively bridged computer science and mathematical epidemiology. Here he developed a novel modular software to take mobility data from sources such as Facebook & Google and understand the impact of mobility on epidemiological models. Currently, Koissi is a postdoctoral fellow at Dana-Farber Cancer Institute in the Department of Medical Oncology. Here he is using his background in mathematical modeling to better understand and predict pathogenicity in somatic mutations in genes commonly mutated in blood cancers.
+Outside of research, Koissi is like long-distance walking, reading, and learning new things.
+
+Read more about Koissi's publications here 
