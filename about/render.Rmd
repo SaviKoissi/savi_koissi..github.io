@@ -1,7 +1,0 @@
----
-title: "Home"
----
-
-```{r}
-rmarkdown::render("about.Rmd", output_format = "html_document", output_file = "about.html", css = "style.css")
-```
