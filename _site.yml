@@ -20,4 +20,4 @@ navbar:
       href: http://github.com/SaviKoissi/
   output:
     html_document:
-      theme: agency
+      theme: darkly
