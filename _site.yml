@@ -19,5 +19,5 @@ navbar:
     - icon: fa-github fa-lg
       href: http://github.com/SaviKoissi/
   output:
-  html_document:
-  theme: agency
+    html_document:
+      theme: agency
