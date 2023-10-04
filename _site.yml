@@ -3,7 +3,7 @@ navbar:
   title: ""
   left:
     - text: "Home"
-      href: content.html
+      href: index.html
     - text: "About"
       href: about.html
     - text: "CV"
