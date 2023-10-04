@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>cv.knit</title>
+
+<script src="site_libs/header-attrs-2.24/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
+<script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="content.html">Home</a>
+</li>
+<li>
+  <a href="about.html">About</a>
+</li>
+<li>
+  <a href="cv.html">CV</a>
+</li>
+<li>
+  <a href="Publications.html">Publications</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<div id="contact-information" class="section level1">
+<h1>Contact Information</h1>
+<ul>
+<li>Phone: +1 (617) 959-2232</li>
+<li>Email: <a href="mailto:merveillekoissi.savi@gmail.com"
+class="email">merveillekoissi.savi@gmail.com</a></li>
+<li>LinkedIn: <a href="linkedin.com/in/Koissi%20Savi">Koissi
+Savi</a></li>
+<li>GitHub: <a href="github.com/SaviKoissi">SaviKoissi</a></li>
+</ul>
+</div>
+<div id="profile" class="section level1">
+<h1>Profile</h1>
+<ul>
+<li>Strong leadership and collaborative research.</li>
+<li>Experience in multidisciplinary research.</li>
+<li>Rich experience in mathematical modeling and computer
+simulation.</li>
+<li>Experience teaching statistics, mathematics.</li>
+<li>Experience in computational oncology and bioinformatics.</li>
+</ul>
+</div>
+<div id="education" class="section level1">
+<h1>Education</h1>
+<ul>
+<li><strong>PhD, Theoretical Ecology (Magna Cum Laude)</strong>
+<ul>
+<li>University of Bonn, Germany, NRW</li>
+<li>Jul. 2017 – Feb. 2022</li>
+</ul></li>
+<li><strong>M.Sc, Statistics (First-class honor)</strong>
+<ul>
+<li>University of Abomey-Calavi, Benin, Lit.</li>
+<li>Oct. 2014 – Dec 2016</li>
+</ul></li>
+<li><strong>M.Sc, Environmental Sci. (First-class honor)</strong>
+<ul>
+<li>University of Abomey-Calavi, Benin, Lit.</li>
+<li>Oct. 2010 – Dec 2011</li>
+</ul></li>
+<li><strong>B.Sc, Agricultural Sciences</strong>
+<ul>
+<li>University of Abomey-Calavi, Benin, Lit.</li>
+<li>Sep. 2007 – Sep. 2010</li>
+</ul></li>
+<li><strong>B.Sc, Mathematics Physics and Biology</strong>
+<ul>
+<li>University of Abomey-Calavi, Benin, Lit.</li>
+<li>Sep. 2004– Sep. 2007</li>
+</ul></li>
+</ul>
+</div>
+<div id="selected-research-experience" class="section level1">
+<h1>Selected Research Experience</h1>
+<div
+id="postdoc-fellowship-dana-farber-cancer-instituteharvard-school-of-medicine"
+class="section level2">
+<h2>Postdoc Fellowship, Dana Farber Cancer Institute/Harvard School of
+Medicine</h2>
+<ul>
+<li><strong>Functional Genomics on RUNX1</strong>
+<ul>
+<li>Access the functional effect of homozygous pathogenic RUNX1
+mutations.</li>
+</ul></li>
+<li><strong>Machine Learning and Deep Learning</strong>
+<ul>
+<li>Develop a learning pipeline that predicts the functional outcome of
+unknown variants from a single nucleotide mutations.</li>
+</ul></li>
+<li><strong>Bioinformatics and Data Analysis</strong>
+<ul>
+<li>Assessing the factors that underpin the high prevalence of clonal
+hematopoiesis in sickle cell patients.</li>
+</ul></li>
+</ul>
+</div>
+<div id="postdoc-fellowship-t.h.-chan-harvard-school-of-public-health"
+class="section level2">
+<h2>Postdoc Fellowship, T.H. Chan Harvard School of Public Health</h2>
+<ul>
+<li><strong>Differential Privacy and Metapopulation Models</strong>
+<ul>
+<li>Access the impact of differential privacy mechanics on
+epidemiological models using computer simulation.</li>
+</ul></li>
+<li><strong>Assessment of Epidemiological Metrics in the Case of
+Disasters</strong>
+<ul>
+<li>Develop the methodology and new metrics that account for mobility
+data in the case of disaster.</li>
+</ul></li>
+<li><strong>Develop Modular Applications</strong>
+<ul>
+<li>Develop a modular software quantifying the impact of noisy data on
+the metapopulation model. Development and Management of a web-deployed
+dashboard producing actionable reports after a disaster denoted
+ReadyMapper.</li>
+</ul></li>
+</ul>
+</div>
+<div id="junior-researcher-university-of-bonn" class="section level2">
+<h2>Junior Researcher, University of Bonn</h2>
+<ul>
+<li><strong>System Modelling and Network Analysis</strong>
+<ul>
+<li>Expert meeting and group modeling of the driving factors underlining
+the persistence of malaria in urban settings using Accra (Ghana) as a
+case study.</li>
+</ul></li>
+<li><strong>Statistical Modeling and Machine Learning</strong>
+<ul>
+<li>Investigation of trends and identification of clustering in malaria
+epidemics in Ghana using the multilevel model and geostatistics
+methods.</li>
+</ul></li>
+<li><strong>Mathematical Modelling and Computer Simulation</strong>
+<ul>
+<li>Develop a patch Eulerian model that informs the dynamics of malaria
+in urban settings. Study of the stability of the mathematical model.
+Calibrate the mathematical model with real data using partially observed
+Markov methods. Simulated community behavior and mobility using the
+mechanistic model developed. Assess the robustness of the developed
+mechanistic model.</li>
+</ul></li>
+<li><strong>Mathematical Modeling</strong>
+<ul>
+<li>Formulation and refinement of maths-prone models with an emphasis on
+malaria-model-based human mobility.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="most-recent-teaching-experience" class="section level1">
+<h1>Most Recent Teaching Experience</h1>
+<ul>
+<li><strong>Center for Development Research</strong>
+<ul>
+<li>Jan.; Mar. &amp; Nov. 2021 University of Bonn, Germany, NRW</li>
+<li>Introduction to Mathematical Epidemiology</li>
+<li>Introduction to Mathematical Biology</li>
+</ul></li>
+</ul>
+</div>
+<div id="awards-scholarships-fellowships-and-grants"
+class="section level1">
+<h1>Awards, Scholarships, Fellowships, and Grants</h1>
+<ul>
+<li>”GetFinished” Scholarship, University of Bonn, 2020</li>
+<li>Santa Fe Institute Fellowship, 2019</li>
+<li>System Dynamics Society Student Award, 2018</li>
+<li>Rufford Second Grant, 2017</li>
+<li>Rufford Small Grant, 2015</li>
+</ul>
+</div>
+<div id="certifications" class="section level1">
+<h1>Certifications</h1>
+<ul>
+<li>Bioinformatics Core, Harvard Catalyst (Nov. 2022)</li>
+<li>Certificate for Human Research, CITI (Dec. 2022)</li>
+<li>Data Science, IBM, (In Progress)</li>
+<li>Epidemics - the Dynamics of Infectious Diseases, The Pennsylvania
+State University, (In Progress)</li>
+<li>Systems Thinking In Public Health, Johns Hopkins University,
+Apr. 2018</li>
+</ul>
+</div>
+<div id="selected-conferences-presentations-and-talks"
+class="section level1">
+<h1>Selected Conferences, Presentations, and Talks</h1>
+<ul>
+<li>Predicting Telomere Elongation using Machine Learning model, Dana
+Farber Cancer Institute, Medical Oncology (MA, USA), Sep. 2023;</li>
+<li>Assess the impact of insecticide-treated bed nets on urban malaria
+epidemics in Accra, Ghana using mathematical modeling, Georgia Southern
+University, Biostatistics, Epidemiology and Environmental Health, (GA,
+USA), Sep. 2022 ;</li>
+<li>Exploring the complexity of malaria transmission in Ghana; Harvard
+T.H. Chan School of Public Health Center for Communicable Disease
+Dynamics Department of Epidemiology (MA, USA), Dec. 2019</li>
+<li>From an individual mental model to a malaria system dynamic model: A
+step toward the elimination of malaria in an urban setting in Accra;
+16th International Conference on Urban Health, ICUH (Xiamen, China),
+Nov. 2019</li>
+<li>Host-Vector-Parasite System Dynamics Analysis for Enhancing Malaria
+Control in Accra, Ghana; The 36th International Conference of the System
+Dynamics Society (ReykjavLk, Iceland), Aug. 2018</li>
+</ul>
+</div>
+<div id="technical-skills-and-application-developed"
+class="section level1">
+<h1>Technical Skills and Application Developed</h1>
+<ul>
+<li>Computer languages: R, SAS, Python, SQL, Bash, Shell, Docker,
+WDL</li>
+<li>Cloud Computing: AWS, Google Cloud, Microsoft Terra, IBM-DB2</li>
+<li>R plug and play application: DP Metapopulation</li>
+<li>R shiny app: malDecision</li>
+<li>R package development REcoToxi, In progress</li>
+<li>Python and shell-based dashboard ReadyMapper</li>
+<li>Language: English: professional proficiency French: native German:
+beginner</li>
+</ul>
+</div>
+<div id="selected-services-to-the-scientific-community"
+class="section level1">
+<h1>Selected Services to the Scientific Community</h1>
+<ul>
+<li>Reviewer for Sustainability (2023)</li>
+<li>Reviewer for Pathogen (2023)</li>
+<li>Reviewer for Frontier Infectious Diseases, epidemiology and
+Prevention (2023)</li>
+<li>Reviewer Editor for Frontier Malaria (2023)</li>
+</ul>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

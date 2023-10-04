@@ -1,0 +1,18 @@
+---
+title: "Koissi Savi"
+output: html_document
+---
+
+Koissi Savi, Ph.D., is a dynamic and accomplished researcher, educator, and leader in the fields of theoretical ecology, statistics, and public health informatics. With a Magna Cum Laude Ph.D. in Theoretical Ecology from the University of Bonn, Germany, and a first-class honors M.Sc. in Statistics, Koissi combines a robust academic background with a passion for leveraging data-driven approaches to address complex challenges.
+
+During his postdoc fellowships at the Dana Farber Cancer Institute and T.H. Chan Harvard School of Public Health, Koissi showcased his expertise in functional genomics, machine learning, and bioinformatics. His groundbreaking work on RUNX1 mutations and differential privacy mechanisms in epidemiological models reflects his commitment to advancing scientific inquiry.
+
+Koissi's research at the University of Bonn delved into the intricate dynamics of malaria transmission in urban settings. His mathematical modeling and computer simulation skills were pivotal in developing a patch Eulerian model and a participatory system approach, resulting in three publishable manuscripts. Koissi's exceptional leadership was recognized through awards, including the System Dynamics Society Student Award and the Rufford Second Grant.
+
+An enthusiastic educator, Koissi imparted knowledge at the University of Bonn, teaching courses on complex systems, mathematical epidemiology, and mathematical biology. His commitment to mentorship extends beyond the classroom, evident in his volunteer services as a reviewer for esteemed journals.
+
+Koissi's journey extends globally, from his Beninese roots to prestigious fellowships at Harvard. His proficiency in languages such as R, SAS, Python, and his adeptness in cloud computing platforms like AWS and Google Cloud underscore his technical prowess.
+
+In crafting innovative solutions, mentoring future researchers, and advancing the frontiers of public health informatics, Koissi Savi stands as a beacon of excellence in multidisciplinary research and education.
+
+Connect with Koissi: LinkedIn: linkedin.com/in/KoissiSavi | GitHub: github.com/SaviKoissi | Email: merveillekoissi.savi@gmail.com
