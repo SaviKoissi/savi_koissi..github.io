@@ -1,0 +1,15 @@
+---
+title: "Koissi Savi"
+output: html_document
+---
+
+<img src="IMG_8595.png" alt="Koissi Savi" style="width:50%;">
+
+Dr. Koissi Savi, a distinguished researcher with a Ph.D. in Theoretical Ecology from the University of Bonn, brings a wealth of expertise to the intersection of computational biology, statistics, and public health informatics. His impactful postdoctoral work at Dana Farber Cancer Institute and Harvard School of Public Health showcased his leadership in functional genomics and innovative approaches to epidemiological modeling.
+
+Koissi's academic journey spans continents, reflecting his commitment to global health. Proficient in R, SAS, Python, and cloud computing, he has developed pioneering models for malaria dynamics and contributed extensively to high-impact publications.
+
+His dedication to multidisciplinary research, education, and mentoring establishes him as a rising force in the field in precision medecine. He holds tight the aspiration of predicting and preventing cancer and infectious disease using AI/ML and human genomics. 
+
+Connect: LinkedIn: linkedin.com/in/KoissiSavi | GitHub: github.com/SaviKoissi | Email: merveillekoissi.savi@gmail.com
+

@@ -1,0 +1,15 @@
+name: "Koissi's-website"
+navbar:
+  title: ""
+  left:
+    - text: "Home"
+      href: content.html
+    - text: "About"
+      href: about.html
+    - text: "CV"
+      href: cv.html
+    - text: "Publications"
+      href: Publications.html
+  output:
+    html_document:
+      theme: flatly

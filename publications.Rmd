@@ -1,0 +1,22 @@
+---
+title: "Publications"
+output: html_document
+---
+
+# Selected Publications and Book Chapter
+
+
+- Savi, M.K., Yadav, A., Zhang, W., Vembar, N., Schroeder, A., Balsari, S., Buckee, C., Vadhan, S., Kishore, N. A standardized differential privacy framework for epidemiological modeling with mobile phone data. PlOs Digital Health (2023).
+- Perez Arredondo, A.M., Schmiege, D., Ntajal, J., Minetto Gellert Paris, J. Savi, M.K., Patel, K., Yasobant, S. Integrated Science of Global Epidemics. One health for mitigation of future epidemics (2023). Springer
+- Savi, M.K. An overview of malaria mechanisms, controls, and modeling (2022). Medical Sciences 11:1
+- Savi, M.K., Callo-Concha, D., Tonnang, H.E.Z., Borgemeister, C., (2021). Emerging properties of malaria transmission and persistence in urban Accra, Ghana: evidence from a participatory system approach. Malaria Journal 20:321
+- Schmiege, D., Perez Arredondo, A.M., Ntajal, J., Minetto Gellert Paris, J. Savi, M.K., Patel, K., Yasobant, S., Falkenberg, T., (2020). One Health in the context of coronavirus outbreaks- A systematic literature review. One Health Journal
+- Madikay, S., Savi, M.K., Gnangnon, B., Hanage, W.P., Okeke, I.N., (2020). Leveraging Africa’s pandemic preparedness towards the next phase of the COVID-19 pandemic. Lancet Global Health
+- Submitted
+- Savi, M.K., Pandey, B., Swain A., Lim J., Callo-Concha, D., Azondekon, G.R., Mohammed, W., Borgemeister, C. Urbanization and malaria have a contextual relationship in endemic areas: a temporal and spatial study. PlOs Global Public Health (Under review)
+- Projects
+- Savi, M.K., Childs L.M., Borgemeister C. Assessing the impact of insecticide-treated bed nets on urban malaria epidemics in Accra, Ghana using mathematical modeling. Sciences Advances (Project progress: 90% achieved, To be submitted by Nov., 2023)
+- More from Savi, M.K. Google Citation
+- Policy briefs published
+- Ntajal, J., Perez Arredondo, Savi, M.K. (2020). Identifying risks and developing sustainable solutions to vector and water-borne diseases in the Greater Accra Metropolitan Area, Ghana. ZEF policy brief
+- Ntajal, J., Perez Arredondo, Savi, M.K. (2020). Urban transformation and health – umbrella framework for Ghana. ZEF policy brief

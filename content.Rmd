@@ -1,0 +1,8 @@
+---
+title: ""
+output: 
+  html_document:
+    df_print: paged
+---
+
+<img src="IMG_8595.png" alt="Koissi Savi" style="width:50%;">
